@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<body>
+
+
+    <main>
+        <h1>Fade Animation</h1>
+        <!-- we are using fade animations -->
+        <div data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">my name is aos animation fade up</div>
+        <div data-aos="fade-down" data-aos-delay="1000" data-aos-duration="3000">my name is aos animation fade down
+        </div>
+        <div data-aos="fade-left" data-aos-delay="1000" data-aos-duration="1000">my name is aos animation fade left
+        </div>
+        <div data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1000">my name is aos animation fade right
+        </div>
+        
+        <div data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">my name is aos animation fade up</div>
+        <div data-aos="fade-down" data-aos-delay="1000" data-aos-duration="1000">my name is aos animation fade down
+        </div>
+        <div data-aos="fade-left" data-aos-delay="1000" data-aos-duration="1000">my name is aos animation fade left
+        </div>
+        <div data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1000">my name is aos animation fade right
+        </div>
+        <div data-aos="fade-up-right" data-aos-delay="1000" data-aos-duration="1000">my name is aos animation fade up
+            right
+        </div>
+        <div data-aos="fade-up-left" data-aos-delay="1000" data-aos-duration="1000">my name is aos animation fade up
+            left
+        </div>
+        <div data-aos="fade-down-right" data-aos-delay="1000" data-aos-duration="1000">my name is aos animation fade
+            down right
+        </div>
+        <div data-aos="fade-down-left" data-aos-delay="1000" data-aos-duration="1000">my name is aos animation fade down
+            right
+        </div>
+        
+        <h1>Flip Animation</h1>
+        <!-- we are using flip animation  -->
+        <div data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000">my name is aos animation flip left
+        </div>
+        <div data-aos="flip-right" data-aos-delay="100" data-aos-duration="1000">my name is aos animation flip left
+        </div>
+        <div data-aos="flip-up" data-aos-delay="100" data-aos-duration="1000">my name is aos animation flip left
+        </div>
+        <div data-aos="flip-down" data-aos-delay="1000" data-aos-duration="1000">my name is aos animation flip left
+        </div>
+        <h1>Zoom Animation</h1>
+        <!-- we are using zoom animation  -->
+        <div data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">my name is aos animation zoom in
+        </div>
+        <div data-aos="zoom-out" data-aos-delay="100" data-aos-duration="1000">my name is aos animation zoom in
+        </div>
+    </main>
+
+
+
+
+    <style>
+        main {
+            display: flex;
+            flex-direction: column;
+            gap: 100px;
+            margin: 50px;
+            font-size: 24px;
+            font-weight: bold;
+           
+
+        }
+
+        div {
+            padding: 20px;
+            background-color: #f0f0f0;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            max-width: 400px;
+            width: 100%;
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            background-image: url(pexels-carlos-oliva-1966452-3586966.jpg);
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+            min-height: 100vh;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+          
+        }
+    </style>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+
+
+</body>
+
+</html>
